@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  width: 1200px;
 }
 
 input {
@@ -18,7 +19,23 @@ input {
   font: inherit;
 }
 
+img {
+  margin-right: 10px;
+  width: 320px;
+  height: 160px;
+}
+
 button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+ .gallery {
+  display: flex;
+
+  list-style: none;
+  max-width: 320px;
+  align-content: space-between;
+  margin-right: 10px;
+} 
+
