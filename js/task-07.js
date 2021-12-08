@@ -1,7 +1,7 @@
 const rangeValue = document.querySelector('#font-size-control');
 const textWithRange = document.querySelector('#text');
 
-rangeValue.addEventListener('change', () => {
+rangeValue.addEventListener('input', () => {
     textWithRange.innerHTML = ' ';
     textWithRange.insertAdjacentHTML("beforeend", 
     `<span id="text" style="font-size: ${rangeValue.value}px">
